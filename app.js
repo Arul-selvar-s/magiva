@@ -54,6 +54,10 @@ function validateInputs(){
     }
     else if(phoneVal.length!=10){
         success = false;
+        setError(phone,'Enter the full phone number')
+    }
+    else if(phoneVal < 6000000000){
+        success = false;
         setError(phone,'Enter the correct phone number')
     }
     else{
