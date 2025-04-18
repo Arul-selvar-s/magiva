@@ -6,8 +6,8 @@
     <title>Magiva Technologies Private Limited</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" href="magiva.png" type="image/x-icon">
-
+    <link rel="icon" href="https://media.licdn.com/dms/image/v2/D560BAQGj6S28nZ9QFg/company-logo_200_200/company-logo_200_200/0/1707558834189/magivatech_logo?e=2147483647&v=beta&t=PQNNlef6w48v5xx9Bhy27Pb9oosiV75-pSoA_vK4ZnY" type="image/x-icon">
+    <script src="app.js" defer></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -83,21 +83,44 @@
               <img src="https://magivatech.com/assets/images/shapes/shape_comment.png" alt="" height="150px" class="mess">
         </td>
         <td>
-<form action="">
+<form action="" id="form">
 
     <img src="https://magivatech.com/assets/images/shapes/shape_man_1.png" alt="" class="block-man" height="300px" style="z-index: 1;">
 
-    <input type="text" placeholder="First Name" class="form-inputs1" required>
-    <input type="text" placeholder="Last Name" class="form-inputs2" required><br>
-    <input type="email" placeholder="Email Address" class="form-inputs3" required>
-    <input type="text" placeholder="Contact No" class="form-inputs4" required><br>
-    <input type="text" placeholder="Write Your Message" class="form-inputs-message" required><br>
-    <div class="g-recaptcha" data-sitekey="6LcalxwrAAAAANpIlvjxZMvvb1D0DSKCyLAVKnzP"></div>
+
+
+
+    <div class="input-group">
+      <input type="text" placeholder="First name" class="form-inputs1" id="firstname" name="firstname" required>
+      <div class="error"></div>
+  </div>
+  <div class="input-group">
+    <input type="text" placeholder="Last name" class="form-inputs2" id="lastname" name="lastname" required>
+    <br><div class="error"></div>
+</div>
+
+  <div class="input-group">
+      <input type="text" placeholder="Email Address" class="form-inputs3" id="email" name="email" required>
+      <div class="error"></div>
+  </div>
+  <div class="input-group">
+      <input type="number" placeholder="Contact No" class="form-inputs4" id="phone" name="phone" required>
+      <br><div class="error"></div>
+  </div>
+  <div class="input-group">
+      <input type="text" placeholder="Write Your Message" class="form-inputs-message" id="msg" name="msg" required>
+      <br><div class="error"></div>
+  </div>
+  <div class="g-recaptcha" style="padding-left: 20px;" data-sitekey="6LeLoBwrAAAAAKhuZ8ygWuOvUPhSAWL87Rf01Add"></div>
     <br/>
+    <br/>
+
+
+
 
   
 
-    <button class="know-more-btn" style="margin-left: 20px;margin-bottom: 5px;"  >
+    <button type="submit" class="know-more-btn-contact" style="margin-left: 20px;margin-bottom: 5px;"  >
       <span class="text-wrapper">
         <span class="text-default">Send</span>
         <span class="text-hover">Send</span>
