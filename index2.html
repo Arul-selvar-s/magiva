@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magiva Technologies Private Limited</title>
+    <link rel="icon" href="magiva.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <script>
+    const pages = ['index3.html', 'index.html', 'index2.html']; // List of URLs
+    let currentPageIndex = 0;
+  
+    function switchPage() {
+      window.location.href = pages[currentPageIndex];
+      currentPageIndex = (currentPageIndex + 1) % pages.length; // Cycle through pages
+    }
+  
+    // Call switchPage every 5 seconds
+    setInterval(switchPage, 20000);
+  </script>
+  
+  
+
+  <script>
+    window.onscroll = function() {
+      var navbar = document.getElementById("navbar");
+      if (window.scrollY > 50) {
+        navbar.classList.remove("initial");
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+        navbar.classList.add("initial");
+      }
+    };
+  </script>
+  
+
+  <header id="navbar" class="initial">
+
+    
+<!-- Logo -->
+<div class="logo">
+  <img src="https://magivatech.com/images/magiva_dark.svg" alt="Magiva Logo">
+</div>
+
+<!-- Navigation Links -->
+<div class="nav-links">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <a href="#">Products <i class="fas fa-chevron-up" id="akash1" ></i></a>
+    <div class="dropdown-menu">
+      <a href="salesmatic.html">Salesmatic</a>
+      <a href="dis.html">Distomatic</a>
+      <a href="tra.html">Trackobox</a>
+    </div>
+  </div>
+  <a href="aboutus.html">About Us</a>
+</div>
+
+<!-- Contact Us Button -->
+<a href="contactus.html" id="contact-a"><button class="know-more-btn-c">
+    <span class="text-wrapper">
+      <span class="text-default">Contact</span>
+      <span class="text-hover">Contact</span>
+    </span>
+  </button></a>
+
+  </header>
+
+
+
+  <div class="start" style="background-color: #61437c;">
+<table>
+    <tr>
+        <td>
+            <h1 style="color: white; font-size: 55px;">Streamline distribution, amplify results.</h1>
+            
+            <a href="dis.html" style="color: black; text-decoration: none;"><button class="know-more-btn">
+                <span class="text-wrapper">
+                  <span class="text-default">Know More</span>
+                  <span class="text-hover">Know More</span>
+                </span>
+                <span class="arrow"></span>
+              </button>
+            </a>
+        </td>
+
+        <td><img src="https://magivatech.com/images/magiva/distomatic_homepage.png" alt="" height="500px" class="updown"></td>
+    </tr>
+</table>
+
+
+<a href="index.html" style="padding-left: 600px;">
+<button style="height: 15px; border-radius: 100%;"></button>
+</a>
+
+<a href="index2.html">
+    <button style="height: 15px; border-radius: 100%;"></button>
+    </a>
+
+<a href="index3.html">
+        <button style="height: 15px; border-radius: 100%;"></button>
+        </a>
+
+</div>
+
+
+
+<div class="Our-Clients">
+<h1 style="text-align: center;">Our Clients</h1>
+
+<div class="home-imgs" style="padding-left: 30px;">
+    <img src="https://magivatech.com/assets/images/clients/Clients-01.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-02.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-03.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-04.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-05.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-06.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-07.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-08.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-09.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-10.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-11.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-12.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-13.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-14.png" alt="" class="home-img">
+    <img src="https://magivatech.com/assets/images/clients/Clients-15.png" alt="" class="home-img">
+</div>
+</div>
+
+
+<div class="middle-content" style="padding: 100px 10px;">
+
+    <table>
+        <tr>
+
+            <td><img src="https://magivatech.com/images/magiva/our_it_expertise_homepage.png" alt="" height="380px"class="updown"></td>
+<td>
+    <h2>Unlock Your Business Potential with our IT Expertise</h2>
+    <p style="color: #5d636a;">Welcome to Magiva, where innovation meets excellence. With a relentless pursuit of excellence, we integrate state-of-the-art technology to streamline your operations and drive unparalleled results. Our solutions are not just products; they are transformative experiences designed to elevate your business to new heights.</p>
+    <br><p style="color: #5d636a;">Our commitment to innovation is reflected in our three flagship products: Salesmatic (Sales Force Automation), Distomatic (Distribution Management System), and Trackobox (IoT-based Fleet Management).</p>
+<br><br>
+
+<a href="aboutus.html" style="text-decoration: none; color: white;">
+<button class="know-more-btn-v">
+    <span class="text-wrapper">
+      <span class="text-default">Know More</span>
+      <span class="text-hover">Know More</span>
+    </span>
+    <span class="arrow"></span>
+  </button></a>
+
+</td>
+        </tr>
+    </table>
+
+</div>
+
+<div class="Innovative-products">
+<h1 style="text-align: center;">Our Innovative Products</h1>
+
+<table>
+    <tr>
+        <td>
+            <img src="https://magivatech.com/images/magiva/home_salesmatic.svg" alt="" height="70px" >
+<h4 style="color: #5d636a;">Revolutionize your sales strategy with our Sales Force Automation solution. Seamlessly manage leads, automate tasks, and optimize sales processes. Empower your team with real-time insights, driving efficiency and boosting sales performance.</h4>
+    
+    <h4><as class="tick">✓</as>Attendance & Activity Tracking</h4>
+    <h4><as class="tick">✓</as>Outlet Visit Management</h4>
+    <h4><as class="tick">✓</as>Promoter Activity Management</h4>
+    <h4><as class="tick">✓</as> Process Digitalization & Automation</h4>
+    <h4><as class="tick">✓</as>Asset and Service Management</h4>
+    <h4><as class="tick">✓</as> ERP Integration</h4>
+    
+    <a href="salesmatic.html" style="text-decoration: none; color: white;">
+        <button class="know-more-btn-v">
+            <span class="text-wrapper">
+              <span class="text-default">Know More</span>
+              <span class="text-hover">Know More</span>
+            </span>
+            <span class="arrow"></span>
+          </button></a>
+        </td>
+
+        <td><img src="https://magivatech.com/images/magiva/salesmatic_homepage.png" alt="" height="530px"class="updown"></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><img src="https://magivatech.com/images/magiva/distomatic_homepage.png" alt="" height="530px" class="updown"></td>
+        <td>
+            <img src="https://magivatech.com/images/magiva/home_distomatic.svg" alt="" height="70px">
+<h4 style="color: #5d636a;">
+    Streamline your logistics with our Distribution Management System. From warehouse to doorstep, our solution ensures efficient inventory management, order fulfilment, and delivery tracking. Maximize efficiency, minimize costs, and elevate your distribution operations.</h4>
+    
+    <h4><as class="tick">✓</as> Beat Planning</h4>
+    <h4><as class="tick">✓</as> Sales & Purchase Management</h4>
+    <h4><as class="tick">✓</as> Inventory Management</h4>
+    <h4><as class="tick">✓</as> Pricing, Schemes & Offers</h4>
+    <h4><as class="tick">✓</as> Accounting & Claims Automation</h4>
+    <h4><as class="tick">✓</as> ERP Integration</h4>
+    
+    <a href="dis.html" style="text-decoration: none; color: white;">
+        <button class="know-more-btn-v">
+            <span class="text-wrapper">
+              <span class="text-default">Know More</span>
+              <span class="text-hover">Know More</span>
+            </span>
+            <span class="arrow"></span>
+          </button></a>    </td>
+
+        
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>
+            <img src="https://magivatech.com/images/magiva/home_trackobox.svg" alt="" height="70px">
+<h4 style="color: #5d636a;">Navigate the future of fleet management with our IoT-based solution. Gain real-time visibility into your fleet, monitor vehicle health, and optimize routes for maximum efficiency. Enhance safety, reduce costs, and transform your fleet into a strategic advantage.</h4>
+    
+    <h4><as class="tick">✓</as>Fuel Monitoring System</h4>
+    <h4><as class="tick">✓</as>Auto Greasing System</h4>
+    <h4><as class="tick">✓</as>Advanced Monitoring Systems</h4>
+    <h4><as class="tick">✓</as> AI Camera Surveillance for Vehicles</h4>
+    <h4><as class="tick">✓</as>Tyre Management</h4>
+    <h4><as class="tick">✓</as>  Fleet Management Software</h4>
+    
+    <a href="tra.html" style="text-decoration: none; color: white;">
+        <button class="know-more-btn-v">
+            <span class="text-wrapper">
+              <span class="text-default">Know More</span>
+              <span class="text-hover">Know More</span>
+            </span>
+            <span class="arrow"></span>
+          </button></a>
+        </td>
+
+        <td><img src="https://magivatech.com/images/magiva/trackobox_homepage.png" alt="" height="530px" class="updown"></td>
+    </tr>
+    
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  <footer>
+
+    <div class="get-in-touch">
+        <table>
+            <tr>
+    <td>
+        <p style="color: white;">GET IN TOUCH</p>
+        <H1 style="color: white;">Ready For The Digital Transformation Of Your Business?</H1>
+        <a href="contactus.html" style="color: black; text-decoration: none;"> <button class="know-more-btn">
+            <span class="text-wrapper">
+              <span class="text-default">Get In Touch</span>
+              <span class="text-hover">Get In Touch</span>
+            </span>
+            <span class="arrow"></span>
+          </button></a>
+    
+    </td>
+    
+    <td><img src="https://magivatech.com/assets/images/calltoaction/cta_image_1.png" alt="" height="600px"></td>
+            </tr>
+        </table>
+    
+    </div>
+    
+    <div class="links">
+    
+        <table><tr>
+            <td><a href="index.html"><img src="https://magivatech.com/images/magiva_light.svg" alt=""></a></td>
+    
+            <td class="arul">
+                <a href="salesmatic.html" style="color:#ffffff; text-decoration: none;">Salesmatic</a><br>
+                <a href="dis.html" style="color:#ffffff; text-decoration: none;">Distomatic</a><br>
+                <a href="tra.html" style="color:#ffffff; text-decoration: none;">Trackobox</a>
+            </td>
+    
+            <td class="arul">
+                <a href="aboutus.html" style="color:#ffffff; text-decoration: none;">About Us</a><br>
+                <a href="contactus.html" style="color:#ffffff; text-decoration: none;">Contact US</a><br>
+                <a href="pp.html" style="color:#ffffff; text-decoration: none;">Privacy Policy</a>
+            </td>
+    
+            <td>
+                
+    
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/magivatech" class="icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/magivatech/mycompany/" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/@MagivaTechnologiesPrivateLimit" class="icon"><i class="fab fa-youtube"></i></a>
+                  </div>
+    
+    
+            </td>
+        </tr></table>
+    
+    </div>
+    <hr style=" background-color: #3f3f45; padding: 0%; margin: 0%;">
+    <div class="ending">
+    <div class="footer-content" >
+        <p style="padding-top: 50px;">Copyright © 2024 by <a href="#" style="color:#ffffff; text-decoration:underline;">Magiva</a> All Rights Reserved.</p>
+      </div>
+      <div class="scroll-top">
+        <a href="#top" class="ss"><i class="fas fa-chevron-up" id="akash" ></i></a>
+      </div>
+    </div>
+    
+    </footer>
+    
+        
+    </body>
+    </html>
